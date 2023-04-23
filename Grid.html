@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-container</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+ <style>
+    .grid-container {
+        display : grid;
+        row-gap:10px;
+        column-gap:10px;
+        grid-template-columns:auto auto auto auto;
+        padding:10px;
+    }
+    .grid-item {
+        background-color: white;
+        border:4px solid grey;
+        padding:5px;
+        font-size:30px;
+        text-align:center;
+    }
+    h4 {
+        color: black;
+        
+    }
+</style>
+ </head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-info sticky-top">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <div class="dropdown">
+                  <a href="#"><img src="https://t4.ftcdn.net/jpg/02/67/29/93/240_F_267299376_Rwmrov0JGO5savkHry0J2ySMhlDd5bJN.jpg" alt="" width="80" height="40" ></a>
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Home
+                     </button>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:aqua;">
+                        <li><a class="dropdown-item" href="#vegetables">Vegetables</a></li>
+                        <li><a class="dropdown-item" href="#Fruits">Fruits</a></li>
+                        <li><a class="dropdown-item" href="#Store items">Store items</a></li>
+                          
+</ul>
+</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li class="nav-item color:dark";>
+<a class="nav-link" href="About.html">About us</a>
+</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li class="nav-item">
+<a class="nav-link" href="contact.html">Contact us</a> 
+
+</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<li class="nav-item">
+<a class="nav-link" href="Grid.html">Offers</a>
+                      
+</li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           
+
+          
+<li class="nav-item">
+<a class="nav-link" href="rigester.html">Register</a>            
+</li>
+
+</div>
+</ul>
+<form class="d-flex">
+<input class="form-control me-2" type="text" placeholder="Search">
+<button class="btn btn-primary" type="button">Search</button>
+</form>
+</div>
+</div>
+
+</nav>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://dealroup.com/wp-content/uploads/2020/05/Grocery-Offers-1024x536.jpg" alt="Los Angeles" class="d-block w-100" style="height:550px">
+          </div>
+          <div class="carousel-item">
+            <img src="http://c8.alamy.com/comp/CB6H3Y/signs-advertising-special-offers-inside-a-tesco-store-CB6H3Y.jpg" alt="Chicago" class="d-block w-100" style="height:550px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://indiangroceryvictoria.com/groceryapp/wp-content/uploads/2018/06/7-2.jpg" alt="New York" class="d-block w-100" style="height:550px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://blog.smartofferz.com/wp-content/uploads/2020/07/Amazon-Pantry-Offers-and-Deals.jpg" alt="" class="d-block w-100" style="height:550px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://4.bp.blogspot.com/-DOjliqCZ_Y8/V1ElCmfqGRI/AAAAAAAAADo/d1YQ0MIM3R8MMEULN3Rj1i3hBW3lj9BxwCKgB/s1600/online%2BGrocery%2BShopping%2B%25284%2529.jpg"  alt=" " class="d-block w-100" style="height:550px">
+          </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+<div class="grid-container mt-3 bg-info">
+        <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.8J8ZFvbxdLhE6NhjudfHhAAAAA&pid=Api&P=0">
+        <br>
+        <h4>Buy 2 Get 2 Free Offer </h4>
+    </div>
+        <div class="grid-item"><img src="https://tse3.mm.bing.net/th?id=OIP.jRflSAcFXySt0_uop8U-EQHaHa&pid=Api&P=0" height="310">
+            <br>
+            <h4>By 1 Get 3 Free Offer </h4>
+        </div>
+        <div class="grid-item"><img src="https://newspaperads.ads2publish.com/wp-content/uploads/2017/11/freedom-refined-sunflower-oil-ad-times-of-india-hyderabad-29-10-2017.jpg" height="310" width="290">
+            <br>
+            <h4>Oil Tin</h4>
+        </div>
+        <div class="grid-item"><img src="https://tse3.mm.bing.net/th?id=OIP.Ud3wZUxcpBlNVARBRlsn-wHaEK&pid=Api&P=0" height="310" width="290">
+            <br>
+            <h4>By 1 Packet Get 1 Free</h4>
+        </div>
+        <div class="grid-item"><img src="https://tse1.mm.bing.net/th?id=OIP.EjLO68I2gG0WWTgt8rtVjwHaEK&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>By 1 Bottle Get 1 Free</h4></div>
+        <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.Th1cKZ6IPajoDTqX5uipowHaFp&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>Offer 20%</h4>
+        </div>
+        <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.nQYmHGqBAWV52GXTDSrM8QHaE3&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>Offer 55%</h4>
+        </div>
+        <div class="grid-item"><img src="https://tse2.mm.bing.net/th?id=OIP.mqhhgX-PFs3_58arePbVLQHaFk&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>Offer 5% </h4>
+        </div>
+        <div class="grid-item"><img src="https://tse3.mm.bing.net/th?id=OIP.vmljFyJb0GV6sXD_sJ5h8QHaC0&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>Offer 2%</h4>
+        </div>
+        <div class="grid-item"><img src="https://tse1.mm.bing.net/th?id=OIP.0MoAScUqBPSrAt5RK_bTwwAAAA&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>Offer 20% </h4>
+        </div>
+        <div class="grid-item"><img src="https://tse1.mm.bing.net/th?id=OIP.8TyZdwg0-f55SEhSKVB8UQHaHa&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>Offer 15% </h4>
+        
+        </div>
+        <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.0f1CeZMFwzsis7sWnzB7DQHaIN&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>Offer 5% </h4>
+        </div>
+        <div class="grid-item"><img src="https://tse3.mm.bing.net/th?id=OIP.L6FWdUNWmqKbpLyHA3hIRwHaGK&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>Offer 30% </h4>
+        </div>
+        <div class="grid-item"><img src="https://tse2.mm.bing.net/th?id=OIP.3pXY-locLqPr4vOVXq0uRgHaGK&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>Offer 5% </h4>
+        </div>
+        <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.6oLDq_4NOCwn3GH5VYT3cwAAAA&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>Offer 10% </h4>
+        </div>
+        <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.y7hV1RM-AjKfFyQ7MwiQDwHaEn&pid=Api&P=0" height="310" width="290">
+          <br>
+          <h4>Buy 3 Get 1 </h4>
+        </div>
+        <div class="grid-item"><img src="https://tse4.explicit.bing.net/th?id=OIP.P1I7iEx_-097K3pQLg9MSwAAAA&pid=Api&P=0" height="310" width="290">
+        <br>
+        <h4>Offer 50%</h4>
+      </div>
+        <div class="grid-item"><img src="https://tse3.mm.bing.net/th?id=OIP.5pUVABuGCJb0H5uFfCjYAAHaGH&pid=Api&P=0" height="310" width="290">
+        <br>
+        <h4>offer 30%</h4>
+        </div>
+        <div class="grid-item"><img src="https://tse2.mm.bing.net/th?id=OIP.GN-E85IVynM2r1Tt6w4n0QHaFj&pid=Api&P=0" height="310" width="290">
+       <br>
+       <h4>Offer 75%</h4>
+        </div>
+        <div class="grid-item"><img src="https://tse3.mm.bing.net/th?id=OIP.X3Eb-MNwEh_1tGER-QvzVgHaDd&pid=Api&P=0" height="310" width="290">
+      <br>
+      <h4>Offer 45%</h4>
+      
+        </div>
+    </div> 
+</body>
+</html>
